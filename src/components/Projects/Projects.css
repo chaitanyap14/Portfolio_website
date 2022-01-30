@@ -1,0 +1,15 @@
+.projects {
+  width: 90vw;
+}
+
+.projects h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #d4af37;
+}
+
+.projectlist {
+  display: grid;
+  grid-template-columns: 1fr;
+}

@@ -1,0 +1,29 @@
+.nav {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 10vw;
+  background-color: #28282b;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navlinks li {
+  margin: 3em 0em;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navlinks li:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #d4af37;
+}

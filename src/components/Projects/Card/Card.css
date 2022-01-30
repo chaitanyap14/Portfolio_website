@@ -1,0 +1,34 @@
+.card {
+  background-color: #d4af37;
+  color: #171717;
+  margin: 5vw;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card h2 {
+  margin: 1em 0;
+}
+
+.desc {
+  padding: 2em;
+  text-align: left;
+}
+
+img {
+  margin: 1em 1em;
+  width: 40%;
+  border-radius: 1em;
+}
+
+.cardlinks {
+  margin: 2em 0em;
+}
+
+.cardlinks a {
+  color: black;
+  font-size: 1.5em;
+  margin: 1em;
+}

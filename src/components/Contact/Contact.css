@@ -1,0 +1,67 @@
+.contact {
+  height: 70vh;
+  width: 90vw;
+}
+
+.contact h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #d4af37;
+  margin-bottom: 2em;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactform input {
+  background-color: #171717;
+  border: 0.2em solid #d4af37;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 1em;
+  width: 50%;
+  border-radius: 1em;
+}
+
+.contactform textarea {
+  background-color: #171717;
+  border: 0.2em solid #d4af37;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 1em;
+  width: 50%;
+  border-radius: 1em;
+}
+
+.contactbtn {
+  text-decoration: none;
+  background-color: #171717;
+  color: white;
+  border: 0.2em solid #d4af37;
+  margin: 1em;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.contactbtn:hover {
+  background-color: #d4af37;
+  color: black;
+  font-weight: bold;
+}
+
+.contactsuccess h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.3em;
+  text-decoration-color: #d4af37;
+  margin-bottom: 2em;
+}

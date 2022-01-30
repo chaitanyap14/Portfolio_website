@@ -1,0 +1,45 @@
+.about {
+  height: 100vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h1 {
+  font-size: 3em;
+  margin: 2em;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 0.5em;
+  text-decoration-color: #d4af37;
+  letter-spacing: 0.5em;
+}
+
+.about h3 {
+  margin: 1em;
+  letter-spacing: 1em;
+}
+
+.about a {
+  text-decoration: none;
+  color: white;
+  border: 0.2em solid #d4af37;
+  margin: 1em;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em;
+  transition: 0.3s ease;
+}
+
+.about a:hover {
+  background-color: #d4af37;
+  color: black;
+  font-weight: bold;
+}
+
+.links {
+  margin: 1em;
+}
