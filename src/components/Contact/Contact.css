@@ -81,4 +81,12 @@
     margin-bottom: 1em;
     text-underline-offset: 0;
   }
+
+  .contactform input {
+    width: 70%;
+  }
+
+  .contactform textarea {
+    width: 70%;
+  }
 }
