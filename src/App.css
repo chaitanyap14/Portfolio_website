@@ -10,3 +10,9 @@
   font-family: Helvetica, sans-serif;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}

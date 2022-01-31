@@ -1,5 +1,5 @@
 .contact {
-  height: 70vh;
+  height: 90vh;
   width: 90vw;
 }
 
@@ -64,4 +64,21 @@
   text-underline-offset: 0.3em;
   text-decoration-color: #d4af37;
   margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 100vw;
+  }
+
+  .contact h1 {
+    margin-bottom: 1em;
+    text-underline-offset: 0;
+  }
 }

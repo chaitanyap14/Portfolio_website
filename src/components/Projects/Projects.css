@@ -13,3 +13,18 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+@media only screen and (max-width: 1024px) {
+  .projects h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    width: 100vw;
+  }
+
+  .projects h1 {
+    text-underline-offset: 0;
+  }
+}

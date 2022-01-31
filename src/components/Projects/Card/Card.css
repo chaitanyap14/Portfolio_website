@@ -19,7 +19,7 @@
 
 img {
   margin: 1em 1em;
-  width: 40%;
+  width: 50%;
   border-radius: 1em;
 }
 
@@ -31,4 +31,14 @@ img {
   color: black;
   font-size: 1.5em;
   margin: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  img {
+    width: 80%;
+  }
 }
